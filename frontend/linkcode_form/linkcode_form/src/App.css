@@ -1,0 +1,5 @@
+.app > h2{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}

@@ -1,0 +1,11 @@
+.detail{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_detail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+}

@@ -6,6 +6,11 @@ const StudentData = mongoose.Schema({
     "course_date":{
         type:String
     },
+    "balance_fee":
+    {
+        type:String
+    
+    },
     "registration_fee":{
         type:String
     },
@@ -42,10 +47,7 @@ const StudentData = mongoose.Schema({
     "emergency_contact_number":{
          type:String
     },
-    "current_address":{
-         type:String
-    },
-    "permanent_address":{
+    "address":{
          type:String
     },
     "college_name":{
@@ -57,6 +59,9 @@ const StudentData = mongoose.Schema({
     "type_of_education":{
          type:String
     },
+    "year_of_comp":{
+        type:String
+    }
 
    
 })
